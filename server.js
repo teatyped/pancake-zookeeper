@@ -1,7 +1,13 @@
 const express = require("express");
 const { animals } = require("./data/animals.json");
 
+
 const app = express();
+// parse incoming string or array data
+app.use(express.urlencoded({extended: true}));
+// parse incoming json data
+app.use(express.json());
+
 const PORT = process.env.PORT || 3001;
 
 app.get("/api/animals", (req, res) => {
@@ -20,6 +26,12 @@ app.get('/api/animals/:id', (req,res) => {
         res.send(404);
     }
 });
+
+app.post('/api/animals', (req, res) => {
+    //req.body is where our incoming content will be
+    console.log(req.body);
+    res.json(req.body);
+})
 
 
 function findById(id, animalsArray) {
