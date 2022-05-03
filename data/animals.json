@@ -118,6 +118,15 @@
         "goofy"
       ],
       "id": "11"
+    },
+    {
+      "name": "foggy",
+      "species": "fogg",
+      "diet": "folivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "12"
     }
   ]
 }
