@@ -101,32 +101,8 @@
       ]
     },
     {
-      "name": "Larry",
-      "species": "lemur",
-      "diet": "omnivore",
-      "personalityTraits": [
-        "hungry"
-      ],
-      "id": "10"
-    },
-    {
-      "name": "tea",
-      "species": "doggy",
-      "diet": "carnivore",
-      "personalityTraits": [
-        "hungry",
-        "goofy"
-      ],
-      "id": "11"
-    },
-    {
-      "name": "foggy",
-      "species": "fogg",
-      "diet": "folivore",
-      "personalityTraits": [
-        "anxious"
-      ],
-      "id": "12"
+      "name": "Darlene",
+      "id": "jhgdja3ng2"
     }
   ]
 }
